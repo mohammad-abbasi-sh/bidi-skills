@@ -43,6 +43,13 @@ Then write Persian/Arabic content as usual — the skill loads when RTL text is 
 
 For Claude.ai: download the release zip of the skill and upload it in Settings → Capabilities → Skills.
 
+## Install in Cursor (and other agents)
+
+Nothing here is Claude-specific — the rules are plain text and the checker is plain Python.
+
+- **Cursor:** copy `cursor/rtl-text.mdc` into your project's `.cursor/rules/` — see [cursor/README.md](cursor/README.md) for details, including the checker in Cursor's terminal.
+- **Windsurf / Cline / Continue / generic agents:** paste the body of the rule (or of `skills/rtl-text/SKILL.md`) into the tool's rules file or system prompt.
+
 ## Roadmap
 
 - `ar-text` / `ur-text` / `he-text` — language-specific rule depth (Arabic ة/همزة discipline, Urdu Nastaliq notes, Hebrew niqqud & acronyms)

@@ -1,5 +1,7 @@
 # bidi-skills
 
+[🇮🇷 توضیحات فارسی](README-fa.md)
+
 **AI agents write broken RTL text. These skills fix that.**
 
 Skills + a deterministic checker that teach Claude Code, Cursor, Codex and other agents to produce correct right-to-left and mixed-direction content — Persian, Arabic, Urdu, Hebrew. Zero dependencies.
